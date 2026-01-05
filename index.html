@@ -1,0 +1,261 @@
+<!-- CONFIGURAÇÃO INICIAL DO HTML -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- CONFIGURAÇÃO NAVBAR -->
+  <header>
+    <nav class="navbar fixed-top bg-white border-bottom">
+      <div class="container-fluid">
+  
+        <span class="navbar-brand fw-bold">LM Tech</span>
+  
+        <ul class="navbar-nav flex-row ms-auto gap-4">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+  
+      </div>
+    
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        ☰
+      </button>
+      
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          ...
+        </ul>
+      </div>
+      
+
+    </nav>
+  </header>
+  
+    <!-- CONFIGURAÇÃO HOME -->
+    <section id="home" class="container">
+        <div class="item">
+        <h1>Escritório Virtual</h1>
+        <p>Olá! Eu sou Lucas Matos, um profissional dedicado ao desenvolvimento web, com experiência em Python, HTML e CSS.</p>
+        <div class="card" style="width: 100%" class="container-fluid">
+          <img src="https://raw.githubusercontent.com/PyMasterWeb/REPO/refs/heads/main/LM%20Tech.png" class="card-img-top" class="img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">IMPERDÍVEL!</h5>
+            <p class="card-text">Acesse agora mesmo a mentoria especial HERDEIROS e viva a plenitude de uma vida próspera e responsável.</p>
+            <a href="https://wa.me/5571997269068?text=" class="btn btn-secondary btn-sm">Inscreva-se!</a>
+          </div>
+    </section>
+
+        <!-- CONFIGURAÇÃO SOBRE -->
+
+
+    <section id="sobre" class="container">
+      <div class="item">
+    <h1>Sobre Mim</h1>
+    <img id="profile" src="https://raw.githubusercontent.com/PyMasterWeb/REPO/refs/heads/main/Lucam.png" alt="Foto de Lucas Matos">
+    <p class="paragrafo-justificado">Sou Lucas Matos, tenho formação multidisciplinar, e busco  me aprimorar com o desenvolvimento WEB, principalmente com o front end.</p>
+    <p class="paragrafo-justificado">Minha área de formação envolve Engenharia Elétrica, Petróleo e Gás e Letras/Inglês, campos diversificados que me permitem uma visão ampla sobre as coisas. Atualmente, sou estudante de Mestrado em Engenharia dos Materiais e também atuo com o Direito, com ênfase na LGPD e no Direito Digital.</p>
+    <p class="paragrafo-justificado">Tenho especialização em Docência do Ensino Superior, o que me permite atuar como pesquisador pela USP com tutoria docente à distância. No entanto, almejo ampliar meu leque de atuações, uma vez que percebo desde a Pandemia, a tendência pelo trabalho e educação à distância.</p>
+      </div>
+
+      <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="true" href="#">Aplicativos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://lucasmatos2025.pythonanywhere.com/">SmS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://e5h6i7cn1ww0.manus.space/">Med-IA</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="card-body">
+
+          <!-- GRID RESPONSIVO PARA IMAGENS -->
+          <div class="row g-3 justify-content-center">
+        
+            <!-- MED-IA -->
+            <div class="col-12 col-md-6 col-lg-5 text-center">
+              <img
+                src="https://raw.githubusercontent.com/PyMasterWeb/REPO/b8b257cc1dbe81b9438fa4bfdb7219f9d0f07355/Med-IA%20Aplicativo.PNG"
+                class="img-fluid img-thumbnail app-preview"
+                data-bs-toggle="modal"
+                data-bs-target="#modalMedIA"
+                alt="Preview Med-IA">
+            </div>
+        
+            <!-- SmS -->
+            <div class="col-12 col-md-6 col-lg-5 text-center">
+              <img
+                src="https://raw.githubusercontent.com/PyMasterWeb/REPO/2ca6582a51ceadc62bd670421c61e5bd3f6c366f/SmS%20-%20Aplicativo.PNG"
+                class="img-fluid img-thumbnail app-preview"
+                data-bs-toggle="modal"
+                data-bs-target="#modalSms"
+                alt="Preview SmS">
+            </div>
+            
+<!-- MODAL MED-IA -->
+<div class="modal fade" id="modalMedIA" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered modal-xl">
+  <div class="modal-content bg-dark">
+    <div class="modal-body p-0 text-center">
+      <img
+        src="https://raw.githubusercontent.com/PyMasterWeb/REPO/b8b257cc1dbe81b9438fa4bfdb7219f9d0f07355/Med-IA%20Aplicativo.PNG"
+        class="img-fluid"
+        alt="Med-IA ampliado">
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- MODAL SMS -->
+<div class="modal fade" id="modalSms" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered modal-xl">
+  <div class="modal-content bg-dark">
+    <div class="modal-body p-0 text-center">
+      <img
+        src="https://raw.githubusercontent.com/PyMasterWeb/REPO/2ca6582a51ceadc62bd670421c61e5bd3f6c366f/SmS%20-%20Aplicativo.PNG"
+        class="img-fluid"
+        alt="SmS ampliado">
+    </div>
+  </div>
+</div>
+</div>
+        
+          </div>
+        </div>
+            </section>
+
+
+<!-- CONFIGURAÇÃO PROJETOS -->
+
+<section id="projetos" class="container"> 
+  <div class="item"> 
+<h1>Meus Projetos</h1> 
+<div id="carouselProjetos" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active text-center" class="container-fluid">
+      <img
+        src="https://raw.githubusercontent.com/PyMasterWeb/REPO/main/aladog.png"
+        class="d-block mx-auto img-fluid rounded"
+        alt=""
+      >
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+      </div>
+    </div>
+
+    <div class="carousel-item text-center" class="container-fluid">
+      <img
+        src="https://raw.githubusercontent.com/PyMasterWeb/REPO/main/ccbr.png"
+        class="d-block mx-auto img-fluid rounded"
+        alt=""
+      >
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+      </div>
+    </div>
+
+    <div class="carousel-item text-center" class="container-fluid">
+      <img
+        src="https://raw.githubusercontent.com/PyMasterWeb/REPO/main/rotas.png"
+        class="d-block mx-auto img-fluid rounded"
+        alt=""
+      >
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+    <p>Aqui estão alguns dos projetos em que trabalhei:</p> 
+  </div> 
+
+<div class="container">
+  <div class="item">
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Contrate-me!
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="exampleModalLabel">Fazer Orçamento!</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Precisando de um WebApp ou um site?! Entre em contato agora mesmo!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">X</button>
+          <a href="https://wa.me/5571997269068?text=" class="btn btn-primary">Mensagem</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section> 
+
+<!-- CONFIGURAÇÃO CONTATO -->
+
+<section id="contato" class="container" class="container-fluid">
+  <div class="item">
+  <h1>Contato</h1>
+  <p>Envie-me uma mensagem através do formulário abaixo:</p>
+  <form action="https://wa.me/5571992582476?text=" method="get" target="_blank">
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="text" rows="4" cols="50"></textarea>
+    <br>
+    <button type="submit">Enviar via WhatsApp</button>
+  </form>
+    </div>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>PARABÉNS!</strong> Você acaba de ganhar 1 sessão de mentoria acadêmica! Envie agora mesmo no formulário uma mensagem com a sua demanda e receba uma resposta personalizada ainda hoje!.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>      
+    
+</section>
+
+
+  </main>
+  <footer>
+    <p>&copy; 2025 Lucas Matos. CNPJ 43.680.356/0001-26. Todos os direitos reservados.</p>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
