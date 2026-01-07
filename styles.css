@@ -19,7 +19,6 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
   line-height: 1.6;
   background-color: #f9f9f9;
-  padding-top: 70px; /* COMPENSA NAVBAR FIXA */
   width: 100%;
   overflow-x: hidden;
 }
@@ -29,7 +28,7 @@ body {
 ================================================== */
 
 .site-header {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   background: #fff;
@@ -84,7 +83,6 @@ body {
 .extra-menu.active {
   display: block;
 }
-
 
 .extra-menu a {
   display: block;
