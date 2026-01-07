@@ -31,12 +31,12 @@ body {
 .site-header {
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
   background: #fff;
   border-bottom: 1px solid #ddd;
   z-index: 1050;
 }
+
 
 /* BARRA PRINCIPAL */
 .nav-bar {
@@ -78,8 +78,13 @@ body {
 .extra-menu {
   display: none;
   background: #fff;
-  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
+
+.extra-menu.active {
+  display: block;
+}
+
 
 .extra-menu a {
   display: block;
@@ -90,10 +95,6 @@ body {
 
 .extra-menu a:hover {
   background: #f1f1f1;
-}
-
-.extra-menu.active {
-  display: block;
 }
 
 /* AJUSTES MOBILE */
