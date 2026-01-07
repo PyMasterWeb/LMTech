@@ -13,46 +13,34 @@
   <header>
     <nav class="navbar fixed-top bg-white border-bottom">
       <div class="container-fluid">
-  
-        <span class="navbar-brand fw-bold">LM Tech</span>
-  
-        <ul class="navbar-nav flex-row ms-auto gap-4">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#sobre">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projetos">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contato">Contato</a>
-          </li>
-        </ul>
-  
-      </div>
     
-      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-        ☰
-      </button>
-      
-      <div class="collapse navbar-collapse" id="menu">
-        <ul class="navbar-nav ms-auto">
-          ...
-        </ul>
+        <span class="navbar-brand fw-bold">LM Tech</span>
+    
+        <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu">
+          ☰
+        </button>
+    
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto gap-3">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          </ul>
+        </div>
+    
       </div>
-      
-
     </nav>
-  </header>
+      </header>
   
     <!-- CONFIGURAÇÃO HOME -->
-    <section id="home" class="container">
-        <div class="item">
+    <section id="home" class="container-fluid px-3 px-md-5">
+      <div class="item">
         <h1>Escritório Virtual</h1>
         <p>Olá! Eu sou Lucas Matos, um profissional dedicado ao desenvolvimento web, com experiência em Python, HTML e CSS.</p>
-        <div class="card" style="width: 100%" class="container-fluid">
+        <div class="card" class="container-fluid">
           <img src="https://raw.githubusercontent.com/PyMasterWeb/REPO/refs/heads/main/LM%20Tech.png" class="card-img-top" class="img-fluid" alt="...">
           <div class="card-body">
             <h5 class="card-title">IMPERDÍVEL!</h5>
@@ -63,11 +51,10 @@
 
         <!-- CONFIGURAÇÃO SOBRE -->
 
-
-    <section id="sobre" class="container">
+        <section id="sobre" class="container-fluid px-3 px-md-5">
       <div class="item">
     <h1>Sobre Mim</h1>
-    <video controls width="100%">
+    <video controls>
       <source src="https://raw.githubusercontent.com/PyMasterWeb/LMTech/refs/heads/main/video.mp4" type="video/mp4">
       Seu navegador não suporta vídeo.
     </video>
@@ -152,7 +139,7 @@
 
 <!-- CONFIGURAÇÃO PROJETOS -->
 
-<section id="projetos" class="container"> 
+<section id="projetos" class="container-fluid px-3 px-md-5"> 
   <div class="item"> 
 <h1>Meus Projetos</h1> 
 <div id="carouselExampleIndicators" class="carousel slide">
@@ -215,7 +202,7 @@
 
 <!-- CONFIGURAÇÃO CONTATO -->
 
-<section id="contato" class="container" class="container-fluid">
+<section id="contato" class="container-fluid px-3 px-md-5">
   <div class="item">
   <h1>Contato</h1>
   <p class="p">Envie-me uma mensagem através do formulário abaixo:</p>
@@ -234,8 +221,8 @@
     
 </section>
 
-<section>
-        <!-- CARD DOWNLOAD -->
+<section id="home" class="container-fluid px-3 px-md-5">
+  <!-- CARD DOWNLOAD -->
         <div class="col-md-4">
           <div class="card shadow-sm h-100">
             <div class="card-body">

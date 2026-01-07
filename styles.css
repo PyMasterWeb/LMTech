@@ -194,3 +194,29 @@ footer {
   margin-bottom: 16px;
   align-items: center;
 }
+
+/* ===============================
+   CORREÇÃO DEFINITIVA OVERFLOW
+================================ */
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container,
+.container-fluid {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.navbar {
+  width: 100%;
+}
+
