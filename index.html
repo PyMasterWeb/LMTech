@@ -10,35 +10,34 @@
 </head>
 <body>
   <!-- CONFIGURAÇÃO NAVBAR -->
-  <header class="fixed-top bg-white border-bottom">
-    <div class="container-fluid d-flex align-items-center justify-content-between py-2">
+  <header class="site-header fixed-top">
+    <div class="nav-bar">
   
-      <span class="fw-bold fs-5">LM Tech</span>
+      <!-- LOGO -->
+      <span class="brand">LM Tech</span>
   
-      <!-- Botão hamburguer -->
-      <button class="btn d-md-none" id="menuToggle">
-        ☰
-      </button>
+      <!-- MENU PRINCIPAL -->
+      <nav class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
   
-      <!-- Menu desktop -->
-      <ul class="nav d-none d-md-flex gap-4">
-        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-      </ul>
+      <!-- BOTÃO HAMBURGER -->
+      <button class="hamburger" id="menuToggle">☰</button>
   
     </div>
   
-    <!-- MENU MOBILE (FORA DO FLUXO DA NAVBAR) -->
-    <div id="mobileMenu" class="mobile-menu d-md-none">
-      <a href="#home">Home</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#contato">Contato</a>
+    <!-- MENU EXTRA (HAMBURGER) -->
+    <div class="extra-menu" id="extraMenu">
+      <a href="projetos.html">Projetos Avançados</a>
+      <a href="jogos.html">Jogos</a>
+      <a href="https://revista.mpm.mp.br/">Artigos</a>
+      <a href="curriculo.html">Currículo</a>
     </div>
   </header>
-    
+      
     <!-- CONFIGURAÇÃO HOME -->
     <section id="home" class="container-fluid px-3 px-md-5">
       <div class="item">
