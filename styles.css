@@ -25,7 +25,7 @@ body {
 ================================================== */
 
 .navbar {
-  height: 70px;
+  height: 60px;
   z-index: 1030; /* acima de tudo */
 }
 
@@ -75,12 +75,12 @@ body {
 h1, h2, h3 {
   font-weight: 700;
   margin-bottom: 16px;
-  margin-top: 16px;
 }
 
 p {
   max-width: 720px;
   font-size: 1rem;
+  text-align: justify;
 }
 
 /* ==================================================
