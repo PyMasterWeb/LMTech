@@ -27,11 +27,7 @@
       <!-- BOTÃO HAMBURGER -->
       <button class="hamburger" id="menuToggle">
         ☰  
-      </button>
-
-
-
-  
+      </button> 
     </div>
   
     <!-- MENU EXTRA (HAMBURGER) -->
@@ -244,6 +240,15 @@
   <footer>
     <p>&copy; 2026 Lucas Matos. CNPJ 43.680.356/0001-26. Todos os direitos reservados.</p>
   </footer>
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const extraMenu = document.getElementById('extraMenu');
+  
+    menuToggle.addEventListener('click', () => {
+      extraMenu.classList.toggle('active');
+    });
+  </script>
+  
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </html>
