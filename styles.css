@@ -65,14 +65,6 @@ body {
   white-space: nowrap;
 }
 
-/* BOTÃO HAMBURGER */
-.hamburger {
-  display: block;
-  width: 30px;
-  height: 5px;
-  cursor: pointer;
-}
-
 /* MENU EXTRA (HAMBURGER) */
 .extra-menu {
   display: none;
