@@ -120,14 +120,14 @@ body {
   position: fixed;
   top: 0;
   right: -260px;
-  width: 260px;
+  width: 160px;
   height: 100vh;
   background: #fff;
 
   padding-top: 70px; /* altura da navbar */
   box-shadow: -6px 0 18px rgba(0,0,0,0.15);
 
-  transition: right 0.35s ease;
+  transition: left 0.35s ease;
   z-index: 1100;
 }
 
