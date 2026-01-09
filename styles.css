@@ -261,6 +261,22 @@ video {
   box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
+.img-frame {
+  width: 280px;
+  margin: 24px auto;
+  padding: 10px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+}
+
+.img-frame img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+
+
 /* ==================================================
    7. CARDS
 ================================================== */
