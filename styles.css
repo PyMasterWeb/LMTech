@@ -321,10 +321,10 @@ footer {
 ================================================== */
 .carousel-indicators {
   bottom: -30px;
+  margin-top: 20px;
 }
 
 .carousel-indicators button {
-  margin-top: 10px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
