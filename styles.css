@@ -67,7 +67,6 @@ body {
 
 /* BOTÃO HAMBURGER */
 .hamburger {
-  position: relative;
   width: 30px;
   height: 22px;
   cursor: pointer;
