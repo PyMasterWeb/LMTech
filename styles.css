@@ -68,8 +68,8 @@ body {
 /* MENU EXTRA (HAMBURGER) */
 .extra-menu {
   display: none;
-  background: #fff;
-  border-bottom: 1px solid #ddd;
+  background: none;
+  border-bottom: none;
 }
 
 .extra-menu.active {
