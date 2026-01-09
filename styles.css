@@ -65,35 +65,78 @@ body {
   white-space: nowrap;
 }
 
-/* MENU EXTRA (HAMBURGER) */
-.extra-menu {
+/* ================= HAMBURGER ================= */
+
+.hamburger {
   display: none;
+  width: 32px;
+  height: 26px;
+  position: relative;
   background: none;
-  border-bottom: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #0d6efd;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.hamburger span:nth-child(1) {
+  top: 0;
+}
+
+.hamburger span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hamburger span:nth-child(3) {
+  bottom: 0;
+}
+
+/* ANIMAÇÃO → X */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 50%;
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg);
+  bottom: 50%;
+}
+
+/* MENU MOBILE ANIMADO */
+.extra-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
 }
 
 .extra-menu.active {
-  display: block;
+  max-height: 300px;
 }
 
-.extra-menu a {
-  display: block;
-  padding: 14px 20px;
-  text-decoration: none;
-  color: #333;
-}
-
-.extra-menu a:hover {
-  background: #f1f1f1;
-}
-
-/* AJUSTES MOBILE */
+/* MOBILE */
 @media (max-width: 768px) {
   .main-nav {
-    gap: 12px;
-    font-size: 0.95rem;
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
   }
 }
+
 
 /* ==================================================
    3. SEÇÕES (LAYOUT GERAL)
