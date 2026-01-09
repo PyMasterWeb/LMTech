@@ -122,7 +122,7 @@ body {
   right: -260px;
   width: 100px;
   height: 100vh;
-  background: rgb(223, 223, 223);
+  background: rgb(214, 214, 214);
 
   padding-top: 70px; /* altura da navbar */
   box-shadow: -6px 0 18px rgba(0,0,0,0.15);
@@ -324,6 +324,7 @@ footer {
 }
 
 .carousel-indicators button {
+  margin-top: 10px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
