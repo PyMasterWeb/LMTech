@@ -11,6 +11,7 @@
 <body>
   <!-- CONFIGURAÇÃO NAVBAR -->
   <header class="site-header fixed-top">
+    <div id="menuOverlay"></div>
     <main>
     <div class="nav-bar">
       <!-- LOGO -->
@@ -197,14 +198,18 @@
   <script>
     const hamburger = document.getElementById("hamburger");
     const mobileMenu = document.getElementById("mobileMenu");
+    const overlay = document.getElementById("menuOverlay");
   
     hamburger.addEventListener("click", () => {
-      hamburger.classList.toggle("active");
-      mobileMenu.classList.toggle("active");
+      mobileMenu.classList.add("active");
+      overlay.style.display = "block";
+    });
+  
+    overlay.addEventListener("click", () => {
+      mobileMenu.classList.remove("active");
+      overlay.style.display = "none";
     });
   </script>
-  
-  
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </html>
