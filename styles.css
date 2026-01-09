@@ -154,6 +154,7 @@ p {
   color: #fff;
   font-weight: 600;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 16px;
 }
 
 .btn-primary-custom:hover {
