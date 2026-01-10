@@ -290,7 +290,7 @@ video {
 }
 
 .card-header {
-  background-color: #fff;
+  background-color: rgba(65, 65, 65, 0.658);
   border-bottom: none;
 }
 
@@ -299,12 +299,12 @@ video {
 ================================================== */
 
 footer {
-  background-color: rgb(150, 150, 150);
-  color: #ccc;
+  background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 16px;
   font-size: 14px;
   margin-top: 20px;
+  opacity: 0.7;
 }
 
 /* ==================================================
