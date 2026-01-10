@@ -413,3 +413,16 @@ footer {
   padding-top: 20vh; /* Ajuste para centralizar verticalmente */
   font-family: monospace;
 }
+
+/* ==================================================
+   11. LOGO
+================================================== */
+
+
+.brand {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+.lm { color: #111111; }
+.tech { color: #0A66C2; }
+.reg { color: #111111; font-size: 0.7em; vertical-align: super; }
