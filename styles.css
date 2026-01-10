@@ -402,10 +402,10 @@ footer {
 .bolhas span {
   width: 30px;
   height: 30px;
-  background: #fffb00;
+  background: #ffffff;
   margin: 0 4px;
-  border-radius: 50;
-  box-shadow: 0 0 0 10px #54545544,
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #ffffff44,
   0 0 50px #545455,
   0 0 100px #545455
   ;
@@ -413,8 +413,8 @@ footer {
 }
 
 .bolhas span:nth-of-type(even) {
-  background: #4CAF50;
-  box-shadow: 0 0 0 10px #4CAF5044,
+  background: #020202;
+  box-shadow: 0 0 0 10px #02020244,
   0 0 50px #4CAF50,
   0 0 100px #4CAF50;
 }
