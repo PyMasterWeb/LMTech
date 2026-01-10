@@ -18,7 +18,7 @@ body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
   line-height: 2.5;
-  background-color: #c3c3c3;
+  background-color: #000; /* Fundo preto padrão */
   width: 100%;
   overflow-x: hidden;
 }
@@ -394,36 +394,12 @@ footer {
   }
 }
 
-.bolhas {
-  position: absolute;
-  display: flex;
+#matrixBackground {
+  position: fixed; /* Fixa o canvas no viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Coloca o canvas atrás de outros conteúdos */
 }
 
-.bolhas span {
-  width: 30px;
-  height: 30px;
-  background: #ffffff;
-  margin: 0 4px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 10px #ffffff44,
-  0 0 50px #545455,
-  0 0 100px #545455
-  ;
-  animation: animar calc(30s / var(--i)) linear infinite;
-}
-
-.bolhas span:nth-of-type(even) {
-  background: #020202;
-  box-shadow: 0 0 0 10px #02020244,
-  0 0 50px #4CAF50,
-  0 0 100px #4CAF50;
-}
-
-@keyframes animar {
-  0% {
-    transform: translateY(100vh) scale(0);
-  }
-  100% {
-    transform: translateY(-10vh) scale(1);
-  }
-}
