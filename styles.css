@@ -200,12 +200,14 @@ h1, h2, h3 {
   font-weight: 700;
   margin-bottom: 16px;
   margin-top: 16px;
+  color: #f1f3f5;
 }
 
 p {
   max-width: 720px;
   font-size: 1rem;
   text-align: justify;
+  color: #f1f3f5;
 }
 
 /* ==================================================
@@ -403,3 +405,12 @@ footer {
   z-index: -1; /* Coloca o canvas atrás de outros conteúdos */
 }
 
+/* Estilo opcional para o conteúdo por cima */
+.content {
+  position: relative;
+  z-index: 1;
+  color: #00ff41; /* Cor verde Matrix */
+  text-align: center;
+  padding-top: 20vh; /* Ajuste para centralizar verticalmente */
+  font-family: monospace;
+}
