@@ -71,7 +71,6 @@ body {
 /* ================= HAMBURGER ================= */
 
 .hamburger {
-  display: none;
   width: 32px;
   height: 26px;
   position: relative;
@@ -207,7 +206,7 @@ h1, h2, h3 {
 }
 
 p {
-  max-width: 720px;
+  max-width: 100%;
   font-size: 1rem;
   text-align: justify;
   color: #f1f3f5;

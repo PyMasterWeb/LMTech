@@ -1,0 +1,4 @@
+ORDEM PARA COMMITAR NO GIT
+git commit -m 
+git add .
+git push origin main 
